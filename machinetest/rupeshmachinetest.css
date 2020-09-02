@@ -1,0 +1,79 @@
+body{
+    margin: 0%;
+}
+.header{
+    height: 50px;
+    display: flex;
+    background-color: black;
+}
+.layout{
+    margin-left: 5%;
+    color: grey;
+    margin-top: 20px;
+}
+.header a:hover{
+    font-size: large;
+    color: white;
+}
+.about{
+    margin-left: 4%;
+    color: grey;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+.heading_container{
+    margin-left: 4%;
+    display: flex;
+    /* margin-bottom: 2%; */
+    /* border-radius: 10px; */
+    /* border: groove; */
+    width: 92% ;
+    margin-top: 2%;
+    height: 55px;
+    align-items: center;
+
+}
+.heading_name{
+    display: flex;
+    margin-left: 10px;
+}
+.heading{
+margin: 0%;
+}
+.subheading{
+    margin: 0%;
+    margin-top: 7px;
+    margin-left: 10px;
+    color: grey;
+}
+
+.submit_button{
+    height: 25px;
+    width: 25px
+}
+.search_bar{
+    margin-left: auto;
+    height: 25px;
+    width: 170px;
+}
+.hr{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 3%;
+}
+.projectlogo{
+    display: flex;
+    place-content: space-around;
+
+
+}
+.projectname{
+    color: blue;
+    font-family: monospace;
+    font-size: x-large;
+}
+.copyright{
+    margin-left: 6%;
+    color: grey;
+}
